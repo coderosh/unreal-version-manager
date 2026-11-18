@@ -25,7 +25,7 @@ optdepends=(
 makedepends=('cargo')
 options=('!lto' '!debug') # binary is already stripped by Cargo.toml
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=('59cb03e945e90247dbe88493c86cde5a39f15785de8728d923f0758863aa46c3')
+sha256sums=('e18567022e8109df7eff43de63b0e10eab4704ee2959c0ec28e3e3b3c3aa8be1')
 
 prepare() {
   cd "$pkgname-$pkgver"
