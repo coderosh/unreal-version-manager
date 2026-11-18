@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Unreal Version Manager
+GenericName=Unreal Engine Launcher
+Comment=Install, launch and switch Unreal Engine versions
+Exec=unreal-version-manager
+Icon=unreal-version-manager
+Terminal=false
+Categories=Development;Graphics;
+Keywords=unreal;ue5;engine;launcher;
+StartupWMClass=unreal-version-manager

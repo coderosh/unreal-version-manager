@@ -1,0 +1,21 @@
+[package]
+name = "unreal-version-manager"
+version = "0.1.0"
+edition = "2021"
+description = "Small GUI to install, launch and switch Unreal Engine versions on Linux"
+license = "MIT"
+repository = "https://github.com/coderosh/unreal-version-manager"
+
+[dependencies]
+eframe = "0.32"
+rfd = "0.15"
+zip = { version = "2", default-features = false, features = ["deflate"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["preserve_order"] }
+dirs = "6"
+uuid = { version = "1", features = ["v4"] }
+libc = "0.2"
+
+[profile.release]
+opt-level = 3
+strip = true
